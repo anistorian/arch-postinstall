@@ -50,10 +50,10 @@ EOF
 echo "[Done]"
 
 # Installing base packages
-sudo pacman -S nano man
+yes | sudo pacman -S nano man
 
 # Installing Hyprland
-sudo pacman -S hyprland hyprpaper hypridle hyprlock hyprcursor waybar wofi mako thunar qutebrowser
+# yes | sudo pacman -S hyprland hyprpaper hypridle hyprlock hyprcursor waybar wofi mako thunar qutebrowser
 
 # hyprcursor themes?
 
