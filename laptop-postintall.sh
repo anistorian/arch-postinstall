@@ -15,7 +15,7 @@ echo "Setting up personal bashrc file"
     rm -f ~/.bashrc
     touch ~/.bashrc
     echo "### ~/.bashrc ###" >> ~/.bashrc
-    echo "[[ \$\- != *i* ]] && return" >> ~/.bashrc
+    echo "[[ \$- != *i* ]] && return" >> ~/.bashrc
     echo "" >> ~/.bashrc
     echo "### Aliases ###" >> ~/.bashrc
     echo "alias ls='ls -lh --color=auto'" >> ~/.bashrc
@@ -35,7 +35,7 @@ echo "Setting up root bashrc file"
     rm -f /root/.bashrc
     touch /root/.bashrc 
     echo "### ~/.bashrc ###" >> /root/.bashrc
-    echo "[[ \$\- != *i* ]] && return" >> /root/.bashrc
+    echo "[[ \$- != *i* ]] && return" >> /root/.bashrc
     echo "" >> /root/.bashrc
     echo "### Aliases ###" >> /root/.bashrc
     echo "alias ls='ls -lh --color=auto'" >> /root/.bashrc
