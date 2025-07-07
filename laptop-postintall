@@ -31,8 +31,7 @@ echo "[Done]"
 # Setting up root bashrc
 
 echo "Setting up root bashrc file"
-    su -c "touch /root/.bashrc;
-    echo "### ~/.bashrc ###" >> /root/.bashrc"
+    su -c "touch /root/.bashrc; echo "### ~/.bashrc ###" >> /root/.bashrc"
     echo "[[ \$- != *i* ]] && return" >> /root/.bashrc
     echo "" >> /root/.bashrc
     echo "### Aliases ###" >> /root/.bashrc
