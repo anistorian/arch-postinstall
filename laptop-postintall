@@ -47,3 +47,11 @@ echo "Setting up root bashrc file"
     source /root/.bashrc
     exit
 echo "[Done]"
+
+# Installing Hyprland
+sudo pacman -S hyprland hyprpaper hypridle hyprlock hyprcursor waybar wofi mako thunar qutebrowser
+
+# hyprcursor themes?
+
+
+
