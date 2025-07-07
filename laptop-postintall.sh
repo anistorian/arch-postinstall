@@ -31,19 +31,21 @@ echo "[Done]"
 # Setting up root bashrc
 
 echo "Setting up root bashrc file"
-    su -c touch /root/.bashrc 
-    su -c echo "### ~/.bashrc ###" >> /root/.bashrc
-    su -c echo "[[ \$- != *i* ]] && return" >> /root/.bashrc
-    su -c echo "" >> /root/.bashrc
-    su -c echo "### Aliases ###" >> /root/.bashrc
-    su -c echo "alias ls='ls -lh --color=auto'" >> /root/.bashrc
-    su -c echo "alias grep='grep --color=auto'" >> /root/.bashrc
-    su -c echo "alias logit='echo -e \"\n\" >> ~/.log && date >> ~/.log && echo \$1 >> ~/.log'" >> /root/.bashrc
-    su -c echo "alias logot='cat ~/.log'" >> /root/.bashrc
-    su -c echo "" >> /root/.bashrc
-    su -c echo "### Shell look and feel ###" >> /root/.bashrc
-    su -c echo 'export PS1="\[\e[0;34m\]\w \[\e[0;37m\][\[\e[0;31m\]#\[\e[0;37m\]] \[\e[0m\]"' >> /root/.bashrc
-    su -c source /root/.bashrc
+    su -c root bash <<EOF
+    touch /root/.bashrc 
+    echo "### ~/.bashrc ###" >> /root/.bashrc
+    echo "[[ \$- != *i* ]] && return" >> /root/.bashrc
+    echo "" >> /root/.bashrc
+    echo "### Aliases ###" >> /root/.bashrc
+    echo "alias ls='ls -lh --color=auto'" >> /root/.bashrc
+    echo "alias grep='grep --color=auto'" >> /root/.bashrc
+    echo "alias logit='echo -e \"\n\" >> ~/.log && date >> ~/.log && echo \$1 >> ~/.log'" >> /root/.bashrc
+    echo "alias logot='cat ~/.log'" >> /root/.bashrc
+    echo "" >> /root/.bashrc
+    echo "### Shell look and feel ###" >> /root/.bashrc
+    echo 'export PS1="\[\e[0;34m\]\w \[\e[0;37m\][\[\e[0;31m\]#\[\e[0;37m\]] \[\e[0m\]"' >> /root/.bashrc
+    source /root/.bashrc
+    EOF
     exit
 echo "[Done]"
 
