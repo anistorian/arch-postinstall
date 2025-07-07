@@ -45,8 +45,8 @@ echo "Setting up root bashrc file"
     echo "### Shell look and feel ###" >> /root/.bashrc
     echo 'export PS1="\[\e[0;34m\]\w \[\e[0;37m\][\[\e[0;31m\]#\[\e[0;37m\]] \[\e[0m\]"' >> /root/.bashrc
     source /root/.bashrc
-    EOF
     exit
+    EOF
 echo "[Done]"
 
 # Installing base packages
