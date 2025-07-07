@@ -48,6 +48,9 @@ echo "Setting up root bashrc file"
     exit
 echo "[Done]"
 
+# Installing base packages
+sudo pacman -S nano
+
 # Installing Hyprland
 sudo pacman -S hyprland hyprpaper hypridle hyprlock hyprcursor waybar wofi mako thunar qutebrowser
 
