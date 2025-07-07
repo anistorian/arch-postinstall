@@ -31,7 +31,7 @@ echo "[Done]"
 # Setting up root bashrc
 
 echo "Setting up root bashrc file"
-    su && touch /root/.bashrc
+    su && touch /root/.bashrc &&
     echo "### ~/.bashrc ###" >> /root/.bashrc
     echo "[[ \$- != *i* ]] && return" >> /root/.bashrc
     echo "" >> /root/.bashrc
