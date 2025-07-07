@@ -32,6 +32,7 @@ echo "[Done]"
 
 echo "Setting up root bashrc file"
     sudo -u root bash <<EOF
+    rm /root/.bashrc
     touch /root/.bashrc 
     echo "### ~/.bashrc ###" >> /root/.bashrc
     echo "[[ \$- != *i* ]] && return" >> /root/.bashrc
