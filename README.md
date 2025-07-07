@@ -1,2 +1,2 @@
 # arch-postinstall
-A small script to setup base config of arch after minimal install
+A set of small bash scripts to setup base config of arch after minimal installs of Arch Linux.
