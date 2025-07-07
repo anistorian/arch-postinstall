@@ -1,6 +1,6 @@
 #!/bin/bash
 # Variables
-bashsetup="[[ $- != *i* ]]"
+bashsetup="[[ \$- != *i* ]]"
 
 
 # Setting up log file
