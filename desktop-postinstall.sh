@@ -25,7 +25,7 @@ echo "Setting up personal bashrc file"
     echo "" >> ~/.bashrc
     echo "### Shell look and feel ###" >> ~/.bashrc
     echo 'export PS1="\[\e[0;34m\]\w \[\e[0;37m\][\[\e[0;32m\]$\[\e[0;37m\]] \[\e[0m\]' >> ~/.bashrc
-    source ~./bashrc
+    source ~/.bashrc
 echo "[Done]"
 
 # Setting up root bashrc
