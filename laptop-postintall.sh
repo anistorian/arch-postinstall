@@ -32,7 +32,7 @@ echo "[Done]"
 
 echo "Setting up root bashrc file"
     sudo -u root bash <<EOF
-    rm /root/.bashrc
+    rm -f /root/.bashrc
     touch /root/.bashrc 
     echo "### ~/.bashrc ###" >> /root/.bashrc
     echo "[[ \$- != *i* ]] && return" >> /root/.bashrc
@@ -45,7 +45,7 @@ echo "Setting up root bashrc file"
     echo "" >> /root/.bashrc
     echo "### Shell look and feel ###" >> /root/.bashrc
     echo 'export PS1="\[\e[0;34m\]\w \[\e[0;37m\][\[\e[0;31m\]#\[\e[0;37m\]] \[\e[0m\]"' >> /root/.bashrc
-source /root/.bashrc
+    source /root/.bashrc
     exit
 EOF
 echo "[Done]"
