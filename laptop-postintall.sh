@@ -50,10 +50,10 @@ EOF
 echo "[Done]"
 
 # Installing base packages
-sudo pacman -S nano man
+sudo pacman -S dosfstools emacs qutebrowser bluedevil btop elinks fortune-mod konsole lolcat man-db nmap nano openssh partitionmanager
 
 # Installing Hyprland
-# yes | sudo pacman -S hyprland hyprpaper hypridle hyprlock hyprcursor waybar wofi mako thunar qutebrowser
+# sudo pacman -S hyprland hyprpaper hypridle hyprlock hyprcursor waybar wofi mako thunar
 
 # hyprcursor themes?
 
