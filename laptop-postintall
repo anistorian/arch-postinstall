@@ -32,7 +32,7 @@ echo "[Done]"
 
 echo "Setting up root bashrc file"
     su -c touch /root/.bashrc 
-    su -c echo "### ~/.bashrc ###" >> /root/.bashrc"
+    su -c echo "### ~/.bashrc ###" >> /root/.bashrc
     su -c echo "[[ \$- != *i* ]] && return" >> /root/.bashrc
     su -c echo "" >> /root/.bashrc
     su -c echo "### Aliases ###" >> /root/.bashrc
