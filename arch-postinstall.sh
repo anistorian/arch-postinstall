@@ -48,13 +48,6 @@ echo "Setting up root bashrc file"
     exit
 echo "[Done]"
 
-# Enabling multilib in pacman.conf [This is super ugly]
-
-echo "Enabling multilib in /etc/pacman.conf"
-su && echo "" >> /etc/pacman.conf && echo "[multilib]" >> /etc/pacman.conf && echo "Include = /etc/pacman.d/mirrorlist" >> /etc/pacman.conf
-exit
-echo "[Done]"
-
 # Removing bloat
 
 echo "Removing unwanted software"
