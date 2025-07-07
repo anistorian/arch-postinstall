@@ -53,7 +53,7 @@ echo "[Done]"
 sudo pacman -S dosfstools emacs qutebrowser bluedevil btop elinks fortune-mod konsole lolcat man-db nmap nano openssh partitionmanager
 
 # Installing Hyprland
-# sudo pacman -S hyprland hyprpaper hypridle hyprlock hyprcursor waybar wofi mako thunar
+# sudo pacman -S hyprland hyprpaper hypridle hyprlock hyprcursor waybar wofi mako thunar sddm
 
 # hyprcursor themes?
 
