@@ -55,6 +55,12 @@ sudo pacman -S dosfstools emacs qutebrowser bluedevil btop elinks fortune-mod ki
 # Installing Hyprland
 # sudo pacman -S hyprland hyprpaper hypridle hyprlock hyprcursor waybar wofi mako thunar sddm
 
+# Download dot files
+# download to /etc/xdg/waybar
+# waybar config: https://raw.githubusercontent.com/sephid86/fulleaf/refs/heads/master/skel/.config/waybar/config
+# waybar style.css: https://raw.githubusercontent.com/sephid86/fulleaf/refs/heads/master/skel/.config/waybar/style.css
+
+
 # hyprcursor themes?
 
 
