@@ -50,7 +50,7 @@ EOF
 echo "[Done]"
 
 # Installing base packages
-sudo pacman -S dosfstools emacs qutebrowser bluedevil btop elinks fortune-mod kitty lolcat man-db nmap nano openssh partitionmanager
+sudo pacman -S dosfstools emacs qutebrowser bluedevil btop elinks fortune-mod kitty lolcat man-db nmap nano openssh partitionmanager wget
 
 # Installing Hyprland
 # sudo pacman -S hyprland hyprpaper hypridle hyprlock hyprcursor waybar wofi mako thunar sddm
