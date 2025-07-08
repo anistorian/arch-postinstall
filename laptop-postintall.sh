@@ -58,7 +58,7 @@ sudo pacman -S dosfstools emacs qutebrowser bluedevil btop elinks fortune-mod ki
 # Download dot files
 # download to /etc/xdg/waybar
 # waybar config: https://raw.githubusercontent.com/sephid86/fulleaf/refs/heads/master/skel/.config/waybar/config
-# waybar style.css: https://raw.githubusercontent.com/sephid86/fulleaf/refs/heads/master/skel/.config/waybar/style.css
+# waybar style.css: https://raw.githubusercontent.com/anistorian/arch-postinstall/refs/heads/main/waybar/style.css
 
 
 # hyprcursor themes?
