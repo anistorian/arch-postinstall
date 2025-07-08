@@ -57,8 +57,8 @@ sudo pacman -S dosfstools emacs qutebrowser bluedevil btop elinks fortune-mod ki
 
 # Download dot files
 # download to /etc/xdg/waybar
-# waybar config: https://raw.githubusercontent.com/anistorian/arch-postinstall/refs/heads/main/waybar/config.jsonc
-# waybar style.css: https://raw.githubusercontent.com/anistorian/arch-postinstall/refs/heads/main/waybar/style.css
+# waybar config: sudo wget https://raw.githubusercontent.com/anistorian/arch-postinstall/refs/heads/main/waybar/config.jsonc -P /etc/xdg/waybar
+# waybar style.css: sudo wget https://raw.githubusercontent.com/anistorian/arch-postinstall/refs/heads/main/waybar/style.css -P /etc/xdg/waybar
 
 
 # hyprcursor themes?
